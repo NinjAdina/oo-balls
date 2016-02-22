@@ -7,6 +7,8 @@ var Ball = function(x, y) {
 
 Ball.prototype = {
 
+  speed : {x: 1, y: 1},
+
   radius: 7,
 
   update: function() {
